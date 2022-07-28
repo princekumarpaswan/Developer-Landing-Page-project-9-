@@ -2,7 +2,7 @@
 
 By Prince Kr Paswan
 
-## [Link to the Developer Landing-Page (project-9)](https://seo-page.netlify.app/)
+## [Link to the Developer Landing-Page (project-9)](https://developerlanding-page.netlify.app/)
 
 
 ![Completed Website](img1.png)
