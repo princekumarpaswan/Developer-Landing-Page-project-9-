@@ -1,0 +1,276 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 210rem;
+
+}
+body{
+    background-color: #F5F5F5;
+}
+.header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: #3400FF; 
+        z-index: 10;   
+}
+nav{
+    margin: 10px 50px;
+    float: right;
+}
+.nav-item{
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    align-items: center;
+    
+}
+.nav-item-active{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #3400FF;
+    margin-right: 20px;
+    align-items: center;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.header-text{
+    margin-left: 75px;
+}
+.header-text img{
+    margin-bottom: 30px;
+}
+.header-text h2{
+    color: white;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.header-text p{
+    color: white;
+}
+.header-image{
+    float: right;
+    margin-top: -180px;
+}
+.companies{
+    margin: 0px 100px;
+    margin-top: 570px;
+}
+.company-items{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-size: 20px;
+}
+.api{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+}
+.cards img{
+    margin-bottom: 20px;
+}
+.cards h3{
+    margin-bottom: 20px;
+}
+.card-active{
+    border: #000 ;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 20px #c2bdbd;
+
+    
+    
+}
+.blog-heading{
+    margin: 50px 150px
+}
+.blog-cards{
+    margin: 50px 150px;
+    justify-content: space-between;
+    
+    
+}
+.blog-cards div{
+    display: flex;   
+}
+.blog-card{
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 5px 5px 20px #c2bdbd;
+    border-radius: 15px;
+    border-top-left-radius: 50px;
+    
+}
+.blog-cards .blog-author b{
+    margin-left: 50px;
+    width: 200px;
+    margin-top: 30px;
+    font-weight: 100;
+}
+.blog-bottom img{
+    width: 50px;
+    height: 50px;
+    margin-left: -70px;
+    margin-top: 20px;
+    margin-right: 150px;
+
+}
+.blog-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-content {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 300px;
+}
+.blog-content h3{
+    margin-bottom: 30px;
+}
+.blog-content h6{
+    margin-bottom: 30px;
+}
+.blog-content small{
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.blog-image{
+    margin-right: 30px;
+}
+
+.faq-section{
+    margin: 20px 10px;
+    background-color: #E9EDFF;
+    padding: 50px;
+    
+}
+.faq-content h2{
+    font-size: 40px;
+}
+.faq-content h4{
+    margin: 20px 0px;
+}
+.faq-image{
+   float: right;
+   display: flex;
+   margin-top: -332px;
+   height: 380px;
+   margin-right: 300px;
+}
+.faq-content button{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #3400FF;
+    border: none;
+    border-radius: 5px;
+}
+.download-section{
+    margin: 100px 150px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.download-content {
+    font-size: 30px;
+}
+.download-content span{
+    font-size: 40px;
+}
+.download-email input{
+    border: #000 solid 2px;
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 30px;
+    height: 50px;
+    text-align: left;
+    padding-left: 150px;
+    background-color: #E9EDFF;
+}
+.download-email button{
+    margin-left: -215px;
+    width: 180px;
+    height: 45px;
+    border-radius: 20px;
+    color: white;
+    background-color: #3400FF;
+    border: none;
+    border: #000 solid 2px;
+}
+.footer-section{
+    background-color: #3400FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.footer-left ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: -90px;
+    margin-top: 20px;
+}
+.footer-left li{
+    padding-left: 40px;
+    color: white;
+    font-weight: 700;
+}
+.footer-right ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.footer-right li{
+    color: white;
+    font-weight: 700;
+}
+.footer-logos{
+    padding-left: 10px;
+    margin-right: 50px;
+}
+.icon-right{
+    display: flex;
+    width: 280px;
+   
+}
+.logos-list{
+    width: 280px;
+
+}
+.footer-logos{
+    margin-left: 10px;
+}
