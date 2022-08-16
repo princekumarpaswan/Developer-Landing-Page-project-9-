@@ -536,7 +536,6 @@ nav{
 @media(max-width: 700px){
 
     *{
-       max-width: 350px;
        overflow-x: hidden !important;
     }
    
